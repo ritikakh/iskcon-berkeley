@@ -45,11 +45,13 @@
     "electrode-static-paths": "^1.0.0",
     "lodash": "^4.10.1",
     "nuka-carousel": "^4.1.0",
-    "react-notify-toast": "^0.4.0",
     "react": "^15.0.0",
-    "react-dom": "^15.0.0"
+    "react-dom": "^15.0.0",
+    "react-favicon": "0.0.14",
+    "react-notify-toast": "^0.4.0"
   },
   "devDependencies": {
-    "electrode-archetype-react-app-dev": "^5.1.2"
+    "electrode-archetype-react-app-dev": "^5.1.2",
+    "favicons-webpack-plugin": "0.0.9"
   }
 }
