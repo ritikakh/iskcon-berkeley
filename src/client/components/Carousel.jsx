@@ -18,10 +18,10 @@ export default class extends React.Component {
         autoplay={true}
         wrapAround={true}
       >
-        <img src={image1} />
-        <img src={image2} />
-        <img src={image3} />
-        <img src={image4} />
+        <img className="carousel-image-berkeley" src={image1} />
+        <img className="carousel-image-berkeley" src={image2} />
+        <img className="carousel-image-berkeley" src={image3} />
+        <img className="carousel-image-berkeley" src={image4} />
       </Carousel>
     );
   }
