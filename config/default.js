@@ -26,6 +26,14 @@ module.exports = {
       "module": "electrode-react-webapp/lib/hapi",
       "options": {
         "pageTitle": "Iskcon Berkeley",
+        "webpackDev": process.env.WEBPACK_DEV === "true",
+        "renderJS": true,
+        "serverSideRendering": true,
+        "htmlFile": "index.html",
+        "devServer": {
+          "host": "127.0.0.1",
+          "port": "2992"
+        },
         "paths": {
           "/{args*}": {
             "content": {
