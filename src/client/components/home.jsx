@@ -6,5 +6,7 @@ import Carousel from "./Carousel";
 export default () =>
   <div className="iskcon-container container-fluid">
     <Menu />
-    <Carousel className={"myCarousel"}/>
+    <div className="container-fluid" id="iskcon-container">
+      <Carousel className={"myCarousel"}/>
+    </div>
   </div>;
