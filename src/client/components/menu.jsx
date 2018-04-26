@@ -6,22 +6,29 @@ class Menu extends React.Component {
   render() {
     return (
 
-        <nav className="navbar navbar-expand-lg navbar-light">
-            <div className="col col-sm-1 col-md-4 ">
-              <a href={``}><img src={logo}></img></a>
-            </div>
-            <div className="col col-sm-11 col-md-8">
-              <ul className="nav float-right">
-                <MenuTab href={`/`} title={`Home`} />
-                <MenuTab href={`/temple`} title={`Temple`} />
-                <MenuTab href={`/about`} title={`About`} />
-                <MenuTab href={`/events`} title={`Events`} />
-                <MenuTab href={`/media`} title={`Media`} />
-                <MenuTab href={`/services`} title={`Services`} />
-                <MenuTab href={`/donate`} title={`Donate`} />
-              </ul>
-            </div>
-        </nav>
+      <nav className="navbar-dark-berkeley navbar navbar-expand-md navbar-dark">
+        <a href={``}><img src={logo}></img></a>
+
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse navbar-right" id="collapsibleNavbar">
+          <ul className="navbar-nav">
+            <MenuTab className="nav-item" href={`/`} title={`Home`} />
+            <MenuTab className="nav-item" href={`/temple`} title={`Temple`} />
+            <MenuTab className="nav-item" href={`/about`} title={`About`} />
+            <MenuTab className="nav-item" href={`/events`} title={`Events`} />
+            <MenuTab className="nav-item" href={`/media`} title={`Media`} />
+            <MenuTab className="nav-item" href={`/services`} title={`Services`} />
+            <MenuTab className="nav-item" href={`/donate`} title={`Donate`} />
+            <MenuTab className="nav-item" href={`/contactus`} title={`ContactUs`} />
+          </ul>
+        </div>
+      </nav>
+
+
+
     );
   }
 }

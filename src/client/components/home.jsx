@@ -7,6 +7,6 @@ export default () =>
   <div className="iskcon-container container-fluid">
     <Menu />
     <div className="container-fluid" id="iskcon-container">
-      <Carousel className={"myCarousel"}/>
+      <Carousel className="myCarousel"/>
     </div>
   </div>;
