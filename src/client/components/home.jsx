@@ -4,9 +4,7 @@ import Menu from "./menu";
 import Carousel from "./Carousel";
 
 export default () =>
-  <div className="iskcon-container container-fluid">
+  <div className="container-fluid">
     <Menu />
-    <div className="container-fluid" id="iskcon-container">
-      <Carousel className="myCarousel"/>
-    </div>
+    <Carousel className="myCarousel"/>
   </div>;

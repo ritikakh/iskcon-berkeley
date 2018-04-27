@@ -12,6 +12,7 @@ export default () =>
       &nbsp; Berkeley, CA 94705<br/>
       <br/>
       &nbsp; Telephone : +1 (510) 540-9215<br/>
+      &nbsp; Email: iskconbayarea@gmail.com<br/>
       <form>
         <label>
           Name:<br/>

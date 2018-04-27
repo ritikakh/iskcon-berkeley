@@ -15,7 +15,7 @@ class Menu extends React.Component {
 
         <div className="collapse navbar-collapse navbar-right" id="collapsibleNavbar">
           <ul className="navbar-nav">
-            <MenuTab className="nav-item" href={`/`} title={`Home`} />
+            <MenuTab className="test-nav-item-iskcon nav-item" href={`/`} title={`Home`} />
             <MenuTab className="nav-item" href={`/temple`} title={`Temple`} />
             <MenuTab className="nav-item" href={`/about`} title={`About`} />
             <MenuTab className="nav-item" href={`/events`} title={`Events`} />

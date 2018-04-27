@@ -8,4 +8,3 @@ export default () =>
     <Menu />
     <Carousel className={"myCarousel"}/>
   </div>;
-
