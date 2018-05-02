@@ -13,7 +13,7 @@ export default () =>
       <br/>
       <b>Telephone :</b> +1 (510) 540-9215<br/>
       <b>Email:</b> iskconbayarea@gmail.com<br/>
-      <b>Parking Information:</b> There are 12 parking spots on the temple property. Street parking is also available.
+      <b>Parking Information:</b> There are 26 parking spots on the temple property. Street parking is also available.
       On festival days, you may have to park in nearby commercial garages.<br/>
       <form>
         <br/>

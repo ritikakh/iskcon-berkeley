@@ -5,40 +5,18 @@ import logo from "../images/iskconBay.png";
 class Menu extends React.Component {
   render() {
     return (
-
-      <nav className="navbar-dark-berkeley navbar navbar-expand-md navbar-dark">
-        <a href={``}><img src={logo}></img></a>
-
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse navbar-right" id="collapsibleNavbar">
-          <ul className="navbar-nav-iskcon navbar-nav">
-            <MenuTab className="test-nav-item-iskcon nav-item" href={`/`} title={`Home`} />
-            {/*<MenuTab className="nav-item" href={`/temple`} title={`Temple`} />*/}
-            <MenuTab className="nav-item" href={`/founder`} title={`Founder`} />
-            {/*<li className="dropdown">*/}
-              {/*<a href="#" data-toggle="dropdown" className="dropdown-toggle">Messages <b className="caret"></b></a>*/}
-              {/*<ul className="dropdown-menu">*/}
-                {/*<li><a href="#">Inbox</a></li>*/}
-                {/*<li><a href="#">Drafts</a></li>*/}
-                {/*<li><a href="#">Sent Items</a></li>*/}
-                {/*<li className="divider"></li>*/}
-                {/*<li><a href="#">Trash</a></li>*/}
-              {/*</ul>*/}
-            {/*</li>*/}
-            <MenuTab className="nav-item" href={`/events`} title={`Events`} />
-            {/*<MenuTab className="nav-item" href={`/media`} title={`Media`} />*/}
-            <MenuTab className="nav-item" href={`/services`} title={`Services`} />
-            <MenuTab className="nav-item" href={`/donate`} title={`Donate`} />
-            <MenuTab className="nav-item" href={`/contactus`} title={`ContactUs`} />
-          </ul>
+      <nav>
+        <div className="col-sm-8 nav nav-tabs" id="nav-tabs" role="tablist">
+          <a className="col col-sm-1" href={`/`}><img src={logo}></img></a>
+          <a className="nav-item nav-link active" href={`/`} role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+          <a className="nav-item nav-link" href={`/founder`} role="tab" aria-controls="nav-profile" aria-selected="false">Founder</a>
+          <a className="nav-item nav-link" href={`/events`} role="tab" aria-controls="nav-contact" aria-selected="false">Events</a>
+          <a className="nav-item nav-link" href={`/media`} role="tab" aria-controls="nav-contact" aria-selected="false">Media</a>
+          <a className="nav-item nav-link" href={`/services`} role="tab" aria-controls="nav-contact" aria-selected="false">Services</a>
+          <a className="nav-item nav-link" href={`/donate`} role="tab" aria-controls="nav-contact" aria-selected="false">Donate</a>
+          <a className="nav-item nav-link" href={`/contactus`} role="tab" aria-controls="nav-contact" aria-selected="false">Contact Us</a>
         </div>
       </nav>
-
-
-
     );
   }
 }
