@@ -8,7 +8,7 @@ import Events from "./components/events";
 import Media from "./components/media";
 import Services from "./components/services";
 import Donate from "./components/donate";
-import Contactus from "./components/contactus";
+import ContactUs from "./components/ContactUs";
 
 export const routes = (
   <Route path="/" component={Base}>
@@ -19,7 +19,7 @@ export const routes = (
     <Route path="/media" component={Media}/>
     <Route path="/services" component={Services}/>
     <Route path="/donate" component={Donate}/>
-    <Route path="/contactUs" component={Contactus}/>
+    <Route path="/contactus" component={ContactUs}/>
   </Route>
 );
 
