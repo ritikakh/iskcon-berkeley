@@ -1,7 +1,7 @@
 import {apiContactUs} from "./action-creators";
 
 export const submitContactUsForm = (data) => (dispatch) => {
-  return fetch('/users', {
+  return fetch('/contact-us', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

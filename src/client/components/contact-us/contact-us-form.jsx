@@ -4,7 +4,6 @@ import {Field, reduxForm} from 'redux-form';
 class ContactUsForm extends Component {
   render() {
     const {handleSubmit, onSubmit, name, hasLongName, email, message} = this.props;
-console.log(this.props);
     return (
       <div className = "container-fluid">
         name: {name}, email: {email}, message: {message}
