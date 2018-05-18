@@ -8,7 +8,7 @@ import Events from "./components/events";
 import Media from "./components/media";
 import Services from "./components/services";
 import Donate from "./components/donate";
-import ContactUs from "./components/ContactUs";
+import ContactUs from "./components/contact-us/contact-us";
 
 export const routes = (
   <Route path="/" component={Base}>

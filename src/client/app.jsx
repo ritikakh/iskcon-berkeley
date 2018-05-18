@@ -6,6 +6,8 @@ import React from "react";
 import { render } from "react-dom";
 import { routes } from "./routes";
 import { redux } from "react-redux";
+import thunk from 'redux-thunk';
+import 'whatwg-fetch'
 
 import { Router, browserHistory } from "react-router";
 import { createStore, applyMiddleware } from "redux";
@@ -36,7 +38,7 @@ require.ensure(
 window.webappStart = () => {
   const initialState = window.__PRELOADED_STATE__;
   const store = createStore(rootReducer, initialState, composeWithDevTools(
-    applyMiddleware()
+    applyMiddleware(thunk)
   ));
   render(
     <Provider store={store}>

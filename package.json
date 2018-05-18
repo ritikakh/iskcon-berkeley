@@ -48,7 +48,14 @@
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
     "react-favicon": "0.0.14",
-    "react-notify-toast": "^0.4.0"
+    "react-notify-toast": "^0.4.0",
+    "react-redux": "^5.0.7",
+    "redux-actions": "^2.3.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-form": "^7.3.0",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1",
+    "whatwg-fetch": "^2.0.4"
   },
   "devDependencies": {
     "electrode-archetype-react-app-dev": "^5.1.2",
