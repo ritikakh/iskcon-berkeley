@@ -5,7 +5,7 @@ const writeFile = util.promisify(fs.writeFile);
 
 module.exports = {
   handler: (request, reply) => {
-    console.log(request.payload);
+    //console.log(request.payload);
     const dataWrite = `${JSON.stringify(request.payload)}\r\n`;
     writeFile('/tmp/test3.js', dataWrite, {'flag':'a'})
       .then(() => {
