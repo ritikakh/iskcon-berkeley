@@ -101,6 +101,7 @@ export default () =>
             <td>Temple Closes</td>
           </tr>
         </table>
+      <br/>
         <label><b>Sunday Evening Special Program Schedule</b></label><br/>
         <table>
           <tr>
