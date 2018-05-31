@@ -9,6 +9,7 @@ import Media from "./components/media";
 import Services from "./components/services";
 import Donate from "./components/donate";
 import ContactUs from "./components/contact-us/contact-us";
+import Schedule from "./components/schedule";
 
 export const routes = (
   <Route path="/" component={Base}>
@@ -16,6 +17,7 @@ export const routes = (
     <Route path="/temple" component={Temple}/>
     <Route path="/founder" component={Founder}/>
     <Route path="/events" component={Events}/>
+    <Route path="/schedule" component={Schedule}/>
     <Route path="/media" component={Media}/>
     <Route path="/services" component={Services}/>
     <Route path="/donate" component={Donate}/>

@@ -11,6 +11,7 @@ class Menu extends React.Component {
           <a className="nav-item nav-link active" href={`/`} role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
           <a className="nav-item nav-link" href={`/founder`} role="tab" aria-controls="nav-profile" aria-selected="false">Founder</a>
           <a className="nav-item nav-link" href={`/events`} role="tab" aria-controls="nav-contact" aria-selected="false">Events</a>
+          <a className="nav-item nav-link" href={`/schedule`} role="tab" aria-controls="nav-schedule" area-selected="false">Schedule</a>
           <a className="nav-item nav-link" href={`/media`} role="tab" aria-controls="nav-contact" aria-selected="false">Media</a>
           <a className="nav-item nav-link" href={`/services`} role="tab" aria-controls="nav-contact" aria-selected="false">Services</a>
           <a className="nav-item nav-link" href={`/donate`} role="tab" aria-controls="nav-contact" aria-selected="false">Donate</a>

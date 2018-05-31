@@ -6,14 +6,14 @@ class ContactUsForm extends Component {
     const {handleSubmit, onSubmit, name, hasLongName, email, message} = this.props;
     return (
       <div className = "container">
-        <h3 className = "iskcon-contribute">LOCATION AND CONTACT INFORMATION</h3><br/>
+        <h3 className = "iskcon-contribute">LOCATION AND CONTACT INFORMATION</h3>
         <label><b>Address:</b> 2334 Stuart Street, Berkeley, CA 94705, USA</label><br/>
-        <label><b>Phone:</b> +1 650-713-1812</label><br/>
+        <label><b>Phone:</b> Dr. Pradeep Goel: +1 650-713-1812, Shri Prem Chaudhary: +1 415-810-0801, Shri Satya Gopinath Das: +1 510-374-8583</label><br/>
         <label><b>Email:</b> iskconbayarea@gmail.com</label><br/>
         <label><b>Parking Information:</b> There are 12 parking spots on the temple property. Street parking
         is also available. On festival days, you may have to park in nearby commercial garages.</label>
         <div>
-          <label className = " iskcon-label">Please fill out the form below to add any suggestions, comments or complaints.</label>
+          <label className = " iskcon-label">Please fill out this form to recieve details of our upcoming events and festivals.</label>
         </div>
         <div className = "container-fluid">
           {/*name: {name}, email: {email}, message: {message}*/}
@@ -32,10 +32,17 @@ class ContactUsForm extends Component {
               </p>
             </div>
 
+            {/*<div>*/}
+              {/*<p>*/}
+                {/*<label htmlFor="email">Your contact number:  </label><br/>*/}
+                {/*<Field name="contact_number" component="input" type="text" placeholder={contact_number} value size="60"/>*/}
+              {/*</p>*/}
+            {/*</div>*/}
+
             <div>
               <p>
                 <label htmlFor="message">Message: </label><br/>
-                <Field name="message" component="textarea" placeholder={message} cols= "59" row= "7"/>
+                <Field name="message" component="textarea" placeholder={message} cols= "59" rows= "7"/>
               </p>
             </div>
 
