@@ -1,10 +1,13 @@
 import React from "react";
-import Menu from "./menu";
+import Menu from "./Menu";
 import Carousel from "./Carousel";
+import {
+  SCHEDULE
+} from "../enums/menu.enum"
 
 export default () =>
   <div className="container-fluid">
-    <Menu />
+    <Menu page={SCHEDULE}/>
     <Carousel className={"myCarousel"}/>
     <div className="container-fluid"><br/>
       <h4 className="iskcon-h4">TEMPLE PROGRAM</h4>

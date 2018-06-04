@@ -1,12 +1,15 @@
 import React from "react";
-import Menu from "./menu";
+import Menu from "./Menu";
 import Carousel from "./Carousel";
 import aboutUsImage from "../images/aboutUsImage.jpg";
+import {
+  FOUNDER
+} from "../enums/menu.enum";
 
 export default () =>
   <div className="container-fluid">
     <div className="container-fluid">
-      <Menu />
+      <Menu page={FOUNDER} />
       <Carousel className={"myCarousel"}/>
     </div><br/>
     <div className="container-fluid">

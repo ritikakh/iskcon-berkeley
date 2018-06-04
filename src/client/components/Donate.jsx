@@ -1,9 +1,10 @@
 import React from "react";
-import Menu from "./menu";
+import Menu from "./Menu";
+import { DONATE } from "../enums/menu.enum";
 
 export default () =>
   <div className="container-fluid">
-    <Menu />
+    <Menu page={DONATE}/>
     <div className="container">
       <h2 className="iskcon-contribute">CONTRIBUTE</h2>
       <h6 className="iskcon-donate"> Donate By Check</h6>
