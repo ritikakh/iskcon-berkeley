@@ -3,7 +3,7 @@ import {Field, reduxForm} from 'redux-form';
 
 class ContactUsForm extends Component {
   render() {
-    const {handleSubmit, onSubmit, name, hasLongName, email, message} = this.props;
+    const {handleSubmit, onSubmit, name, hasLongName, email, contactNumber, message} = this.props;
     return (
       <div className = "container">
         <h3 className = "iskcon-contribute">LOCATION AND CONTACT INFORMATION</h3>
@@ -32,12 +32,12 @@ class ContactUsForm extends Component {
               </p>
             </div>
 
-            {/*<div>*/}
-              {/*<p>*/}
-                {/*<label htmlFor="email">Your contact number:  </label><br/>*/}
-                {/*<Field name="contact_number" component="input" type="text" placeholder={contact_number} value size="60"/>*/}
-              {/*</p>*/}
-            {/*</div>*/}
+            <div>
+              <p>
+                <label htmlFor="email">Your contact number:  </label><br/>
+                <Field name="contact_number" component="input" type="text" placeholder={contactNumber} value size="60"/>
+              </p>
+            </div>
 
             <div>
               <p>

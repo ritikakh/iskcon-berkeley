@@ -5,6 +5,7 @@ import {
   customerName,
   customerEmail,
   customerMessage,
+  customerPhone,
   customerNameLengthChecker
 } from "../selectors/customer.selector";
 
@@ -17,7 +18,7 @@ const mapStateToProps = (state) => ({
   name: customerName(state),
   email: customerEmail(state),
   message: customerMessage(state),
-  //contact_number: contact-number(state),
+  contact_number: customerPhone(state),
   hasLongName: customerNameLengthChecker(state)
 });
 

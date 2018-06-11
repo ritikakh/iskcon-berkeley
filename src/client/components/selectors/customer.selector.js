@@ -12,6 +12,11 @@ export const customerEmail = createSelector(
   ({email}) => email
 );
 
+export const customerPhone = createSelector(
+  customerSelector,
+  ({phone}) => phone
+);
+
 export const customerMessage = createSelector(
   customerSelector,
   ({message}) => message
