@@ -22,9 +22,9 @@ class Menu extends React.Component {
           <a className="col col-sm-1" href={`/`}><img src={logo}></img></a>
           <MenuTab href={"/"} title={"Home"} isActive={page === HOME}/>
           <MenuTab href={"/founder"} title={"Founder"} isActive={page === FOUNDER}/>
-          <MenuTab href={"/events"} title={"Events"} isActive={page === EVENTS}/>
           <MenuTab href={"/schedule"} title={"Schedule"} isActive={page === SCHEDULE}/>
-          <MenuTab href={"/media"} title={"Media"} isActive={page === MEDIA}/>
+          <MenuTab href={"/events"} title={"Events"} isActive={page === EVENTS}/>
+          {/*<MenuTab href={"/media"} title={"Media"} isActive={page === MEDIA}/>*/}
           <MenuTab href={"/services"} title={"Services"} isActive={page === SERVICES}/>
           <MenuTab href={"/donate"} title={"Donate"} isActive={page === DONATE}/>
           <MenuTab href={"/contactus"} title={"Contact Us"} isActive={page === CONTACTUS}/>

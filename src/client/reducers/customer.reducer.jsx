@@ -5,7 +5,8 @@ import { API_POST_CONTACT_US} from "../actions/types";
 const initialState = {
   name: "Name",
   email: "someone@xyz.com",
-  message: "Your message here"
+  message: "Your message here",
+  contactNumber: "XXX-XXX-XXXX",
 };
 
 export default handleActions(

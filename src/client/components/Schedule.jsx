@@ -11,12 +11,12 @@ export default () =>
     <Carousel className={"myCarousel"}/>
     <div className="container-fluid"><br/>
       <h4 className="iskcon-h4">TEMPLE PROGRAM</h4>
-        <label><b>Mon-Sat Daily Schedule</b></label><br/>
+        <label><b>Monday - Saturday Daily Schedule</b></label><br/>
         <table>
           <tr>
-            <td width="30%">4.00 - 4.55 AM </td>
+            <td width="30%">4.30 AM </td>
             <td width="20%"></td>
-            <td width="50%">Deity Door Opens, Mangal Arti</td>
+            <td width="50%">Mangal Arti</td>
           </tr>
           <tr>
             <td>5.00 AM</td>
@@ -36,7 +36,7 @@ export default () =>
           <tr>
             <td>8.00 AM</td>
             <td></td>
-            <td>Deity Door Opens, Darshan Arti(Greeting the Deities)</td>
+            <td>Darshan Arti (Greeting the Deities)</td>
           </tr>
           <tr>
             <td>8.15 AM</td>
@@ -51,7 +51,7 @@ export default () =>
           <tr>
             <td>8.45 - 8.55 AM</td>
             <td></td>
-            <td>Deity Door Opens, Prat Bhog Arti</td>
+            <td>Prat Bhog Arti</td>
           </tr>
           <tr>
             <td>11.50 AM</td>
@@ -61,32 +61,27 @@ export default () =>
           <tr>
             <td>12.30 PM</td>
             <td></td>
-            <td>Deity Door Opens, Raj Bhog Arti</td>
+            <td>Raj Bhog Arti</td>
           </tr>
           <tr>
             <td>1.00 PM</td>
             <td></td>
-            <td>Deity Door Closes for the afteroon</td>
+            <td>Deity Door Closes for the Afternoon</td>
           </tr>
           <tr>
             <td>4.15 - 4.25 PM</td>
             <td></td>
-            <td>Deity Door Opens, Dhupa Arti</td>
+            <td>Dhupa Arti</td>
           </tr>
           <tr>
-            <td>6.00 PM PM</td>
+            <td>6.00 PM</td>
             <td></td>
             <td>Deity Door Closes</td>
           </tr>
           <tr>
-            <td>4.15 - 4.25 PM</td>
-            <td></td>
-            <td>Deity Door Opens, Dhupa Arti</td>
-          </tr>
-          <tr>
             <td>6.30 - 6.45 PM</td>
             <td></td>
-            <td>Deity Door Opens, Gaura Arti</td>
+            <td>Gaura Arti</td>
           </tr>
           <tr>
             <td>6.45 PM</td>
@@ -96,7 +91,7 @@ export default () =>
           <tr>
             <td>8.30 PM</td>
             <td></td>
-            <td>Deity Door Opens, Shyana Arti</td>
+            <td>Shyana Arti</td>
           </tr>
           <tr>
             <td>9.00 PM</td>
@@ -105,7 +100,7 @@ export default () =>
           </tr>
         </table>
       <br/>
-        <label><b>Sunday Evening Special Program Schedule</b></label><br/>
+        <label><b>Sunday Evening Special Schedule</b></label><br/>
         <table>
           <tr>
             <td width="47.5%">4.00 PM </td>
@@ -117,7 +112,7 @@ export default () =>
           </tr>
           <tr>
             <td>5.00 PM</td>
-            <td>Deity Door Opens, Gaura Arti</td>
+            <td>Gaura Arti</td>
           </tr>
           <tr>
             <td>5.45 PM</td>
@@ -125,7 +120,7 @@ export default () =>
           </tr>
           <tr>
             <td>6.00 PM</td>
-            <td>Vedic Teachings Lecture</td>
+            <td>Lecture on Vedic Teachings</td>
           </tr>
           <tr>
             <td>6.45 PM</td>
@@ -137,7 +132,7 @@ export default () =>
           </tr>
           <tr>
             <td>8.00 PM</td>
-            <td>Deity Door Opens, Shyana Arti</td>
+            <td>Shyana Arti</td>
           </tr>
           <tr>
             <td>9.00 PM</td>

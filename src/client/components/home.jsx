@@ -29,7 +29,7 @@ export default () =>
       deities of Jagannatha Swami, Baldev, and Subhadra. The Golden Avatar of this dark age, Shri Caitanya
       Dev, spent the last eighteen years of His life at Puri, dancing and chanting in ecstasy before the Deity of
       Lord Jagannatha during the Ratha-yatra festival. Shrila Prabhupad initiated the Ratha-yatra festival in
-      San Francisco. Further, to memorialize this advent of Shri Jagannath dev and His Rath Yatra, he gave San
+      San Francisco. Further, to memorialize this advent of Shri Jagannath Dev and His Rath Yatra, he gave San
       Francisco a new and spiritual name: the New Jagannatha Puri. This temple in Berkeley was established
       by Shrila Prabhupad in his early seventies.</p>
       <p>With the upheavals that unfolded during the subsequent years after Shrila Prabhupad&#39;s departure from

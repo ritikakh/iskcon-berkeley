@@ -6,14 +6,17 @@ class ContactUsForm extends Component {
     const {handleSubmit, onSubmit, name, hasLongName, email, contactNumber, message} = this.props;
     return (
       <div className = "container">
-        <h3 className = "iskcon-contribute">LOCATION AND CONTACT INFORMATION</h3>
+        <h3 className = "iskcon-contribute">LOCATION AND CONTACT INFORMATION</h3><br />
         <label><b>Address:</b> 2334 Stuart Street, Berkeley, CA 94705, USA</label><br/>
-        <label><b>Phone:</b> Dr. Pradeep Goel: +1 650-713-1812, Shri Prem Chaudhary: +1 415-810-0801, Shri Satya Gopinath Das: +1 510-374-8583</label><br/>
+        <label><b>Phone:</b> Shri Satya Gopinath Das: +1 510-374-8583, Shri Parth Sarathy Das (Prem Chaudhary): +1 415-810-0801,<br />
+          Shri Premananda Gaura Das (Dr. Pradeep Goel): +1 650-713-1812</label><br/>
         <label><b>Email:</b> iskconbayarea@gmail.com</label><br/>
         <label><b>Parking Information:</b> There are 12 parking spots on the temple property. Street parking
         is also available. On festival days, you may have to park in nearby commercial garages.</label>
+        <br />
+        <br />
         <div>
-          <label className = " iskcon-label">Please fill out this form to recieve details of our upcoming events and festivals.</label>
+          <label className = "iskcon-form-head"><h4>Please fill out this form to receive details of our upcoming events and festivals:</h4></label>
         </div>
         <div className = "container-fluid">
           {/*name: {name}, email: {email}, message: {message}*/}
