@@ -103,8 +103,8 @@ export default () =>
         <label><b>Sunday Evening Special Schedule</b></label><br/>
         <table>
           <tr>
-            <td width="47.5%">4.00 PM </td>
-            <td width="60%">Guru Puja</td>
+            <td width="38%">4.00 PM </td>
+            <td width="62%">Guru Puja</td>
           </tr>
           <tr>
             <td>4.30 PM</td>

@@ -11,7 +11,7 @@ class ContactUsForm extends Component {
         <label><b>Phone:</b> Shri Satya Gopinath Das: +1 510-374-8583, Shri Parth Sarathy Das (Prem Chaudhary): +1 415-810-0801,<br />
           Shri Premananda Gaura Das (Dr. Pradeep Goel): +1 650-713-1812</label><br/>
         <label><b>Email:</b> iskconbayarea@gmail.com</label><br/>
-        <label><b>Parking Information:</b> There are 12 parking spots on the temple property. Street parking
+        <label><b>Parking Information:</b> There are 26 parking spots on the temple property. Street parking
         is also available. On festival days, you may have to park in nearby commercial garages.</label>
         <br />
         <br />

@@ -12,7 +12,7 @@ export default () =>
       <p>Hare Krishna! Our temple is a perfect place for celebrating your weddings, birthdays, marriage
         anniversaries, punya tithis (anniversary dates of forefathers), Shraddha (memorial services), etc.
         We have available a 42 feet x 35 feet hall that can accommodate up to 100 guests depending
-        upon your needs. Our kitchen can cater onion and garlic free prasad, sanctified vegetarian/vegan
+        upon your needs. Our kitchen can cater prasad free of  onion and garlic, sanctified vegetarian/vegan
         food preparations to your guests. Adjacent bathrooms, separate for men and women, are on
         the premises and so are our 26 parking spots.
       </p>
