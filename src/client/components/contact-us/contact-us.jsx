@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ContactUsForm from './contact-us-form.connect';
-import Menu from '../Menu';
+import Menu from '../menu';
 import {CONTACTUS} from "../../enums/menu.enum";
 
 class ContactUs extends Component {

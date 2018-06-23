@@ -1,5 +1,5 @@
 import React from "react";
-import MenuTab from "./MenuTab";
+import MenuTab from "./menu-tab";
 import logo from "../images/iskconBay.png";
 import {
   FOUNDER,

@@ -1,12 +1,11 @@
+
 import React from "react";
-import Menu from "./Menu";
-import Carousel from "./Carousel";
-import {
-  MEDIA
-} from "../enums/menu.enum";
+import Menu from "./menu";
+import Carousel from "./carousel";
+import {HOME} from "../enums/menu.enum";
 
 export default () =>
   <div className="container-fluid">
-    <Menu page={MEDIA}/>
+    <Menu page={HOME}/>
     <Carousel className={"myCarousel"}/>
   </div>;

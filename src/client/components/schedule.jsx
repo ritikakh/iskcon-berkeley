@@ -1,6 +1,6 @@
 import React from "react";
-import Menu from "./Menu";
-import Carousel from "./Carousel";
+import Menu from "./menu";
+import Carousel from "./carousel";
 import {
   SCHEDULE
 } from "../enums/menu.enum"
