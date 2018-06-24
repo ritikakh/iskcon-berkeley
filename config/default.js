@@ -25,6 +25,9 @@ module.exports = {
     "server/plugins/contact-us": {
       "module": "./{{env.APP_SRC_DIR}}/server/plugins/contact-us"
     },
+    "server/plugins/downloads": {
+      "module": "./{{env.APP_SRC_DIR}}/server/plugins/downloads"
+    },
     "webapp": {
       "module": "electrode-react-webapp/lib/hapi",
       "options": {

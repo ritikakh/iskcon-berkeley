@@ -10,8 +10,9 @@ export default () =>
     <Menu page={EVENTS}/>
     <Carousel
       className={"myCarousel"}/><br />
+    <label className = "events-heading"><h4>Ekadashi Flyer - &nbsp;</h4></label><a href="/static/ekadashi-flyer.pdf">Download as PDF</a><br /><br />
     <label className = "events-heading"><h4>TRAIN RIDE</h4></label><br />
     <img className = "events-image" src={image2} /><br /><br />
     <label className ="events-heading"><h4>RATH YATRA</h4></label><br />
     <img className = "events-image" src={image1} />
-  </div>;
+  </div>
