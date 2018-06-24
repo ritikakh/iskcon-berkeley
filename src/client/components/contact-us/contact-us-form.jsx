@@ -8,7 +8,7 @@ class ContactUsForm extends Component {
       <div className = "container">
         <h3 className = "iskcon-contribute">LOCATION AND CONTACT INFORMATION</h3><br />
         <label><b>Address:</b> 2334 Stuart Street, Berkeley, CA 94705, USA</label><br/>
-        <label><b>Phone:</b> Shri Satya Gopinath Das: +1 510-374-8583, Shri Parth Sarathy Das (Prem Chaudhary): +1 415-810-0801,<br />
+        <label><b>Phone:</b> Shri Jagannath Swami Das: +1707 426 4672, Shri Satya Gopinath Das: +1 510-374-8583, Shri Parth Sarathy Das (Prem Chaudhary): +1 415-810-0801,<br />
           Shri Premananda Gaura Das (Dr. Pradeep Goel): +1 650-713-1812</label><br/>
         <label><b>Email:</b> iskconbayarea@gmail.com</label><br/>
         <label><b>Parking Information:</b> There are 26 parking spots on the temple property. Street parking
