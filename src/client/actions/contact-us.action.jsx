@@ -1,6 +1,6 @@
-import {apiContactUs} from "./action-creators";
+import { apiContactUs } from './action-creators';
 
-export const submitContactUsForm = (data) => (dispatch) => {
+export const submitContactUsForm = data => dispatch => {
   return fetch('/contact-us', {
     method: 'POST',
     headers: {
@@ -8,8 +8,8 @@ export const submitContactUsForm = (data) => (dispatch) => {
     },
     body: JSON.stringify(data)
   })
-    .then((data) => {
+    .then(data => {
       dispatch(apiContactUs(data));
     })
-    .catch((err) => dispatch(apiContactUs(new Error(err))));
+    .catch(err => dispatch(apiContactUs(new Error(err))));
 };

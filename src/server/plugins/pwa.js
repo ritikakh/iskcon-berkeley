@@ -1,22 +1,22 @@
-"use strict";
+'use strict';
 
 /*eslint-env es6*/
 const plugin = {};
 
-plugin.register = function (server, options, next) {
+plugin.register = function(server, options, next) {
   server.route({
-    method: "GET",
-    path: "/sw.js",
+    method: 'GET',
+    path: '/sw.js',
     handler: {
-      file: "dist/sw.js"
+      file: 'dist/sw.js'
     }
   });
   next();
 };
 
 plugin.register.attributes = {
-  name: "PWAPlugin",
-  version: "0.0.1"
+  name: 'PWAPlugin',
+  version: '0.0.1'
 };
 
 module.exports = plugin;

@@ -2,17 +2,18 @@
 // This is the server side entry point for the React app.
 //
 
-import ReduxRouterEngine from "electrode-redux-router-engine";
-import {routes} from "../../client/routes";
-import {createStore} from "redux";
-import rootReducer from "../../client/reducers";
+import ReduxRouterEngine from 'electrode-redux-router-engine';
+import { routes } from '../../client/routes';
+import { createStore } from 'redux';
+import rootReducer from '../../client/reducers';
 
-const Promise = require("bluebird");
+const Promise = require('bluebird');
 
-function createReduxStore(req, match) { // eslint-disable-line
+function createReduxStore(req, match) {
+  // eslint-disable-line
   const initialState = {
-    checkBox: {checked: false},
-    number: {value: 999}
+    checkBox: { checked: false },
+    number: { value: 999 }
   };
 
   const store = createStore(rootReducer, initialState);
@@ -29,10 +30,10 @@ function createReduxStore(req, match) { // eslint-disable-line
 //
 //
 
-module.exports = (req) => {
-  const app = req.server && req.server.app || req.app;
+module.exports = req => {
+  const app = (req.server && req.server.app) || req.app;
   if (!app.routesEngine) {
-    app.routesEngine = new ReduxRouterEngine({routes, createReduxStore});
+    app.routesEngine = new ReduxRouterEngine({ routes, createReduxStore });
   }
 
   return app.routesEngine.render(req);

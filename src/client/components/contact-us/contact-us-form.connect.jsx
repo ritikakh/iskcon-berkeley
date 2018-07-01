@@ -1,4 +1,4 @@
-import { reduxForm } from "redux-form";
+import { reduxForm } from 'redux-form';
 import { connect } from 'react-redux';
 
 import {
@@ -7,14 +7,14 @@ import {
   customerMessage,
   customerPhone,
   customerNameLengthChecker
-} from "../selectors/customer.selector";
+} from '../selectors/customer.selector';
 
-import ContactUsForm from "./contact-us-form";
-import {submitContactUsForm} from "../../actions/contact-us.action";
+import ContactUsForm from './contact-us-form';
+import { submitContactUsForm } from '../../actions/contact-us.action';
 
-const FORM_NAME = "contact-us";
+const FORM_NAME = 'contact-us';
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   name: customerName(state),
   email: customerEmail(state),
   message: customerMessage(state),
@@ -22,14 +22,15 @@ const mapStateToProps = (state) => ({
   hasLongName: customerNameLengthChecker(state)
 });
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   onSubmit: data => dispatch(submitContactUsForm(data))
 });
 
 let ContactUsConnectedForm = connect(
-  mapStateToProps, mapDispatchToProps
+  mapStateToProps,
+  mapDispatchToProps
 )(ContactUsForm);
 
 export default reduxForm({
   form: FORM_NAME
-}) (ContactUsConnectedForm);
+})(ContactUsConnectedForm);

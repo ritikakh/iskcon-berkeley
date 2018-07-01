@@ -1,17 +1,17 @@
-"use strict";
+'use strict';
 
-const Path = require("path");
-const Chalk = require("chalk");
-const _ = require("lodash");
-const assert = require("assert");
+const Path = require('path');
+const Chalk = require('chalk');
+const _ = require('lodash');
+const assert = require('assert');
 
-const after = (options) => (server, next) => {
+const after = options => (server, next) => {
   server.route({
-    method: "GET",
+    method: 'GET',
     path: `/static/{param*}`,
     handler: {
       directory: {
-        path: "static",
+        path: 'static',
         listing: false
       }
     }
@@ -20,14 +20,14 @@ const after = (options) => (server, next) => {
 };
 
 const DownloadStaticPlugin = (server, options, next) => {
-  server.dependency("inert", after(options));
+  server.dependency('inert', after(options));
   next();
 };
 
 DownloadStaticPlugin.attributes = {
   pkg: {
-    name: "downloadStaticPlugin",
-    version: "1.0.0"
+    name: 'downloadStaticPlugin',
+    version: '1.0.0'
   }
 };
 

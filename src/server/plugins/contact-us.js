@@ -13,8 +13,8 @@ const ContactUsAPIPlugin = (server, options, next) => {
 };
 
 ContactUsAPIPlugin.attributes = {
-  name: "contactUs",
-  version: "1.0.0"
+  name: 'contactUs',
+  version: '1.0.0'
 };
 
 module.exports = ContactUsAPIPlugin;

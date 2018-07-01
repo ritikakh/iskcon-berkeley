@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 class MenuTab extends React.Component {
@@ -13,11 +13,17 @@ class MenuTab extends React.Component {
   //
 
   render() {
-    const {href, title, isActive} = this.props;
+    const { href, title, isActive } = this.props;
 
     return (
-      <a className = {classNames('nav-item', 'nav-link', {"active": isActive})} href={href}
-         role="tab" aria-controls="nav-home" aria-selected={isActive}>{title}
+      <a
+        className={classNames('nav-item', 'nav-link', { active: isActive })}
+        href={href}
+        role="tab"
+        aria-controls="nav-home"
+        aria-selected={isActive}
+      >
+        {title}
       </a>
     );
   }
