@@ -33,7 +33,8 @@
     "test": "clap check",
     "coverage": "clap check",
     "prod": "echo 'Starting standalone server in PROD mode'; NODE_ENV=production node ./lib/server/",
-    "heroku-postbuild": "clap build"
+    "heroku-postbuild": "clap build",
+    "prettier": "prettier --write --single-quote 'src/**/*.{js,jsx}'"
   },
   "dependencies": {
     "bluebird": "^3.4.6",
@@ -61,6 +62,7 @@
   },
   "devDependencies": {
     "electrode-archetype-react-app-dev": "^5.1.2",
-    "favicons-webpack-plugin": "0.0.9"
+    "favicons-webpack-plugin": "0.0.9",
+    "prettier": "^1.13.7"
   }
 }
