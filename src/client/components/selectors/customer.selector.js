@@ -14,7 +14,7 @@ export const customerEmail = createSelector(
 
 export const customerPhone = createSelector(
   customerSelector,
-  ({phone}) => phone
+  ({contactNumber}) => contactNumber
 );
 
 export const customerMessage = createSelector(

@@ -3,7 +3,7 @@ import {Field, reduxForm} from 'redux-form';
 
 class ContactUsForm extends Component {
   render() {
-    const {handleSubmit, onSubmit, name, hasLongName, email, contactNumber, message} = this.props;
+    const {handleSubmit, onSubmit, name, hasLongName, email, contactNumber, message, submitSucceeded} = this.props;
     return (
       <div className = "container">
         <h3 className = "iskcon-contribute">LOCATION AND CONTACT INFORMATION</h3><br />
@@ -49,7 +49,11 @@ class ContactUsForm extends Component {
               </p>
             </div>
 
-            <button className = "btn btn-primary" type="submit">Send Message</button>
+            {!submitSucceeded && <button className = "btn btn-primary" type="submit">Send Message</button>}
+
+            {submitSucceeded && <span className = "alert alert-success">Hare Krishna! Thanks for contacting us.
+              We will be in touch with you shortly! In the humble service of Shri Jagannath Dev!</span>}
+
           </form>
         </div>
       </div>

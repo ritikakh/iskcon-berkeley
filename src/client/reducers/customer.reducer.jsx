@@ -1,5 +1,5 @@
 import { handleActions } from "redux-actions";
-import { API_POST_CONTACT_US} from "../actions/types";
+import { API_POST_CONTACT_US } from "../actions/types";
 
 
 const initialState = {

@@ -18,7 +18,7 @@ const mapStateToProps = (state) => ({
   name: customerName(state),
   email: customerEmail(state),
   message: customerMessage(state),
-  contact_number: customerPhone(state),
+  contactNumber: customerPhone(state),
   hasLongName: customerNameLengthChecker(state)
 });
 

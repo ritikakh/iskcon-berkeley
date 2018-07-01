@@ -8,6 +8,8 @@ export const submitContactUsForm = (data) => (dispatch) => {
     },
     body: JSON.stringify(data)
   })
-    .then((data) => dispatch(apiContactUs(data)))
+    .then((data) => {
+      dispatch(apiContactUs(data));
+    })
     .catch((err) => dispatch(apiContactUs(new Error(err))));
 };
