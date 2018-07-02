@@ -17,7 +17,7 @@ export default () => (
     <br />
     <br />
     <label className="events-heading">
-      <h4>Santsang with Param Pujya Gopal Krishna Goswami Maharaj (Monday, July 9, 2018 @ 6.30 PM) - &nbsp;</h4>
+      <h4>Satsang with Param Pujya Gopal Krishna Goswami Maharaj (Monday, July 9, 2018 @ 6.30 PM) - &nbsp;</h4>
     </label>
     <a href="/static/Gopal_Krisna_9July2018.pdf">Download as PDF</a>
     <br />
