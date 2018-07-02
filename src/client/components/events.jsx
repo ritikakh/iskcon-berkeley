@@ -11,9 +11,21 @@ export default () => (
     <Carousel className={'myCarousel'} />
     <br />
     <label className="events-heading">
-      <h4>Ekadashi Flyer - &nbsp;</h4>
+      <h4>List of Ekadeshi and major festivals at new Jagannath Puri - &nbsp;</h4>
     </label>
     <a href="/static/ekadashi-flyer.pdf">Download as PDF</a>
+    <br />
+    <br />
+    <label className="events-heading">
+      <h4>Santsang with Param Pujya Gopal Krishna Goswami Maharaj (Monday, July 9, 2018 @ 6.30 PM) - &nbsp;</h4>
+    </label>
+    <a href="/static/Gopal_Krisna_9July2018.pdf">Download as PDF</a>
+    <br />
+    <br />
+    <label className="events-heading">
+      <h4>Snana Yatra at new Jagannath Puri (Saturday, August 4, 2018 starting @ 11.00 AM) - &nbsp;</h4>
+    </label>
+    <a href="/static/Snāna_Yatra_2018.pdf">Download as PDF</a>
     <br />
     <br />
     <label className="events-heading">
