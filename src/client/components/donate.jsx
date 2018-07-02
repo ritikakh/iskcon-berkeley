@@ -20,8 +20,8 @@ export default () => (
       temple donation box located in front of the Jagannath Deities at any time.
       We will mail you a receipt after confirming your address.<br />
       <br />
-      <h5 className="iskcon-donate">Available Soon : Donation By Venmo</h5>
-      {/*<p>Please find us on Venmo @iskconberkeley</p>*/}
+      <h5 className="iskcon-donate">Donation By Venmo</h5>
+      <p>Please find us on Venmo @ISKCON-BayArea (ISKCON Bay Area)</p>
       <br />
       <h5 className="iskcon-donate">Available Soon : Donation By Paypal</h5>
       {/*<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">*/}
